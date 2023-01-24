@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: aquamarine !important;
+}
+.content{
+  background-color: #ffc10740;
+  border-radius: 7px;
+  top: 215px;
+  position: absolute;
+  width: 70%;
+}
+.value{
+  outline: none;
+  height: 55px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-right: 5px;
+  padding-left: 15px;
+  font-size: 17px;
+  color: #6f6161;
+  letter-spacing: 0.5px;
+}
+.from{
+  display: flex;
+  justify-content: center;
+}
+#task{
+  padding: 0 96px 17px 96px;
+}
+.taskContent{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top:10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-group{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-group > * {
+  border-radius: 5px;
+}
+.Delete{
+  background-color: #ff00008c;
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+.Done{
+    background-color: #0080008a;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+p{
+  margin: 0 !important;
+}
+.done{ text-decoration: line-through ;}
